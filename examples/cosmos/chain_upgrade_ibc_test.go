@@ -17,7 +17,7 @@ import (
 )
 
 func TestJunoUpgradeIBC(t *testing.T) {
-	CosmosChainUpgradeIBCTest(t, "juno", "v6.0.0", "v8.0.0", "multiverse")
+	CosmosChainUpgradeIBCTest(t, "juno", "v11.0.0", "latest", "v12")
 }
 
 func CosmosChainUpgradeIBCTest(t *testing.T, chainName, initialVersion, upgradeVersion string, upgradeName string) {

@@ -24,7 +24,7 @@ const (
 )
 
 func TestJunoUpgrade(t *testing.T) {
-	CosmosChainUpgradeTest(t, "juno", "v6.0.0", "v8.0.0", "multiverse")
+	CosmosChainUpgradeTest(t, "juno", "v11.0.0", "latest", "v12")
 }
 
 func CosmosChainUpgradeTest(t *testing.T, chainName, initialVersion, upgradeVersion string, upgradeName string) {
